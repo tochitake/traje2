@@ -1,0 +1,129 @@
+@font-face {
+font-family: Fadilla_font;
+src: url('../font/Fadilla.ttf');
+}
+
+
+.top_title{
+    position: relative;
+}
+
+
+.top_title div.text01{
+    position: absolute;
+/*    top: 669px;
+    left: 682px;
+    width: 556px;
+    height: 211px;*/
+    text-align: left;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    font-family:Fadilla_font;
+    font-size: 300px;
+    letter-spacing: 0;
+    color: #DCE6F2;
+    opacity: 1;
+}
+
+
+.top_title img {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 0;
+    /*height: 1595px;
+    background: transparent url('../img/Rail.jpg') 0% 0% no-repeat padding-box; */
+    /*border: 1px solid #707070;*/
+    opacity: 1;
+}
+
+#nava{
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    position: fixed;
+
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+/* スクロール固定 */
+body, html, main {
+    /* important */
+    height: 100%;
+}
+
+.pad{
+    padding-top: 100px;
+}
+
+.cd-fixed-bg {
+    padding-top: 100px;
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.cd-fixed-bg.cd-bg-1{
+    background-image: url('../img/Rail.jpg');
+}
+
+.cd-fixed-bg.cd-bg-2{
+    background-image: url('../img/piano.jpg');
+}
+.cd-fixed-bg.cd-bg-3{
+    background-image: url('../img/dean.jpg');
+}
+
+.cd-color-1 {
+    margin: auto;
+}
+
+.cd-scrolling-bg {
+    min-height: 100%;
+}
+
+.cd-container{
+    text-align: center;
+    font-family:Fadilla_font;
+}
+
+.h01{
+    font-size: 150px;
+    letter-spacing: 0;
+}
+
+.h02{
+    font-size: 50px;
+    letter-spacing: 0;
+}
+
+.h03{
+    font-size: 30px;
+    letter-spacing: 0;
+}
+
+.h01-01{
+    text-align: center;
+    font-family:Fadilla_font;
+    font-size: 100px;
+}
+
+.title-h02{
+    padding-left: 10px;
+    font-size: 30px;
+    font-family:Fadilla_font;
+}

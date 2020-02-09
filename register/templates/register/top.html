@@ -1,0 +1,41 @@
+{% extends "register/base.html" %}
+{% load static %}
+{% block content %}
+    <main>
+        <div class="cd-fixed-bg cd-bg-1">
+            <div class="h01-01"><p>Traje</p></div>
+        </div>
+        <div class="cd-scrolling-bg cd-color-1">
+            <div class="cd-container">
+                <div class="h01"><p><u>Concept</u></p></div>
+                <div class="h03"><p>コンセプト</p></div>
+                <p>目標を登録して、推奨される1日の達成量をアドバイス</p>
+                <p>プロからの適切なフィードバックを受けたいと思いませんか？</p>
+                <p>あなたの望む結果を、あなた自身の手で。</p>
+                <div class="h02"><p>それが、Traje</p></div>
+                <!-- <img src="{% static 'register/img/concept.png' %}" alt="Concept" width="104" height="34"> -->
+            </div>
+        </div>
+        <div class="cd-fixed-bg cd-bg-2">
+            <h1></h1>
+        </div>
+        <div class="cd-scrolling-bg cd-color-2">
+            <div class="cd-container">
+                <div class="h01"><p><u>Services</u></p></div>
+                <div class="h03"><p>サービス内容</p></div>
+                <p>・目標を管理する</p>
+                <p>・日々の達成度を計測する</p>
+                <p>・プロからのアドバイスを受ける</p>
+                <div class="h02"><p><a href="{% url 'register:login' %}">まずは無料プランから</a></p></div>
+            </div>
+        </div>
+        <div class="cd-fixed-bg cd-bg-3">
+            <h1></h1>
+        </div>
+        <div class="cd-scrolling-bg cd-color-3">
+            <div class="cd-container">
+                <div class="h01"><p>What's New</p></div>
+            </div>
+        </div>
+    </main>
+{% endblock %}
